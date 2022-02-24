@@ -4,7 +4,7 @@
 	 * Plugin Name: USD->UAH
 	 * Description: USD conversion plugin -> UAH through DB (MinFin, PrivatBank)
 	 * Version: 1.1
-	 * Author: Digital Dealerz
+	 * Author: Stanislav Shchukin
 	 * Author URI: http://digitaldealerz.com
 	 */
 	
@@ -97,7 +97,7 @@
 		public function courses() {
 			return $this->wpdb->get_results( 'SELECT * FROM ' . $this->table_rates );
 		}
-		
+		Digital Dealerz
 		/**
 		 * Возвращает данные из таблицы с курсами в массиве
 		 * @return array
